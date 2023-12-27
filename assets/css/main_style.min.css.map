@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main_style.min.css"}
+{"version":3,"sources":["base/_reset.scss"],"names":[],"mappings":"AAAA,KACG,sBAAA,CAGH,MACG,gBAAA,CACA,eAAA,CACA,eAAA,CACA,kBAAA,CACA,oBAAA,CACA,qBAAA,CACA,qBAAA,CAGH,KACG,cAAA,CACA,gCAAA,CAGH,WACG,UAAA,CACA,gBAAA","file":"main_style.min.css"}

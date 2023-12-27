@@ -1,0 +1,23 @@
+html {
+   scroll-behavior: smooth;
+}
+
+:root {
+   --light: #ffffff;
+   --text: #012c44;
+   --dark: #323232;
+   --primary: #095dc7;
+   --secondary: #85af4b;
+   --secondary2: #001b3d;
+   --secondary3: #02295a;
+}
+
+body {
+   font-size: 13px;
+   font-family: 'poppins', sans-serif;
+}
+
+.container {
+   width: 100%;
+   max-width: 1920px;
+}

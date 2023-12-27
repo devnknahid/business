@@ -17,7 +17,24 @@ body {
    font-family: 'poppins', sans-serif;
 }
 
+.primary {
+   background-color: var(--primary);
+}
+
+.light {
+   color: var(--light);
+}
+
+.dark {
+   color: var(--dark);
+}
+
+.w-1170 {
+   width: 1170px !important;
+}
+.nav-link{
+   color: var(--text) !important;
+}
 .container {
    width: 100%;
-   max-width: 1920px;
 }

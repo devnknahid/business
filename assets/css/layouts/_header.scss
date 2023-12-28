@@ -1,7 +1,32 @@
 .main_area {
    .header_area {
-      .row {
-         height: 45px;
+      .header_top {
+
+         .row {
+            height: 45px;
+
+            .social_icons {
+               width: 100px;
+            }
+
+            .header_contact {
+               width: 300px;
+            }
+         }
       }
+
+      .header_bottom {
+         .img {
+            img {
+               width: 50px;
+               height: 35px;
+            }
+         }
+
+         .menu {
+            width: 435px;
+         }
+      }
+
    }
 }

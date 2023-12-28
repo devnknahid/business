@@ -29,12 +29,29 @@ body {
    color: var(--dark);
 }
 
-.w-1170 {
-   width: 1170px !important;
-}
-.nav-link{
+.nav-link {
    color: var(--text) !important;
 }
+
 .container {
    width: 100%;
+   max-width: 1170px;
+   padding: 0 !important;
+}
+
+.row {
+
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row>* {
+   padding: 0 5px !important;
+   margin: 0 !important;
+}
+
+@media(max-width:768px) {
+   .row {
+      padding: 0 5px !important;
+   }
 }

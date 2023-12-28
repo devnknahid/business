@@ -1,75 +1,49 @@
-@media(max-width:1024px) {
-   .banner_area {
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
 
-      .row {
-         .d-sm-none {
-            display: none !important;
-         }
-      }
-   }
-}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
 
-@media(max-width:768px) {
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
    .main_area {
       .header_area {
+         .header_top {
+            .row {
+               .header_contact {
+                  // width: 75%;
+               }
+            }
+         }
+
          .header_bottom {
             .menu {
-               width: 100%;
+               width: 60%;
             }
          }
       }
 
-      .banner_area {
+      .history_area {
+         .container {
+            .history_bottom {
+               grid-template-columns: repeat(2, 1fr);
 
-         .row {
-            height: 500px;
-           
-         }
-
-         .banner_left {
-            .d-sm-block {
-               display: block;
             }
-
-            h1 {
-               font-size: 50px;
-            }
-
-            p {
-               font-size: 13px;
-            }
-
 
          }
-
       }
 
+      .feature_area {
+         .count_contents {
+            grid-template-columns: repeat(4, 1fr);
+         }
+      }
    }
 }
 
-@media(max-width:576px) {
-   .main_area {
-      .banner_area {
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
 
-
-         .banner_left {
-            h1 {
-               font-size: 35px;
-            }
-
-            p {
-               font-size: 12px;
-            }
-
-
-         }
-
-         .buttons {
-            flex-direction: column !important;
-            gap: 10px;
-         }
-
-      }
-
-   }
-}
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}

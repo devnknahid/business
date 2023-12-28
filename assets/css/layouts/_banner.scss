@@ -3,20 +3,21 @@
       background-color: var(--primary);
 
       .row {
-         height: 840px;
+         height: 500px;
       }
 
       .banner_left {
          h1 {
-            font-size: 72px;
+            font-size: 35px;
          }
 
          p {
-            font-size: 16px;
+            font-size: 12px;
          }
 
          .buttons {
             width: 335px;
+            gap: 20px;
 
             &:first-child {
                border-color: var(--secondary) !important;

@@ -1,26 +1,19 @@
 .main_area {
    .feature_area {
-      height: 870px;
+      height: auto;
+      padding: 50px 0;
       background-color: #f8fafc;
 
       .img {
-         width: 580px;
-         height: 490px;
-         display: block;
 
          img {
-            width: 775px;
-            height: -webkit-fill-available;
-            top: -85px;
-            left: -262px;
+            width: 100%;
          }
       }
 
       .feture_content {
-         width: 570px;
 
          h4 {
-            width: 400px;
             font-size: 36px;
          }
 
@@ -32,7 +25,7 @@
       }
 
       .count_contents {
-         grid-template-columns: repeat(4, 1fr);
+         grid-template-columns: repeat(1, 1fr);
 
          .single_count {
             span {

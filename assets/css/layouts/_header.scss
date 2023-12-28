@@ -15,6 +15,29 @@
          }
       }
 
+      @mixin fixd {
+         position: fixed;
+         z-index: 999;
+         background: var(--light);
+         padding: 2px;
+
+      }
+
+      .fixedTogger,
+      .fixed {
+         @include fixd;
+         width: auto;
+         height: auto;
+         top: 5px;
+         right: 3px;
+      }
+
+      .fixedHeaderBottom {
+         @include fixd;
+         width: 100%;
+         top: 0;
+      }
+
       .header_bottom {
          .img {
             img {
@@ -23,8 +46,24 @@
             }
          }
 
+         .fixed {
+            width: 100% !important;
+            padding: 0;
+
+            #navbarNavDropdown {
+               position: absolute;
+               left: 0;
+               width: 72px;
+               top: 20px;
+               height: auto;
+               background: var(--light);
+            }
+         }
+
          .menu {
             width: 435px;
+
+
          }
       }
 

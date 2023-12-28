@@ -1,0 +1,75 @@
+@media(max-width:1024px) {
+   .banner_area {
+
+      .row {
+         .d-sm-none {
+            display: none !important;
+         }
+      }
+   }
+}
+
+@media(max-width:768px) {
+   .main_area {
+      .header_area {
+         .header_bottom {
+            .menu {
+               width: 100%;
+            }
+         }
+      }
+
+      .banner_area {
+
+         .row {
+            height: 500px;
+           
+         }
+
+         .banner_left {
+            .d-sm-block {
+               display: block;
+            }
+
+            h1 {
+               font-size: 50px;
+            }
+
+            p {
+               font-size: 13px;
+            }
+
+
+         }
+
+      }
+
+   }
+}
+
+@media(max-width:576px) {
+   .main_area {
+      .banner_area {
+
+
+         .banner_left {
+            h1 {
+               font-size: 35px;
+            }
+
+            p {
+               font-size: 12px;
+            }
+
+
+         }
+
+         .buttons {
+            flex-direction: column !important;
+            gap: 10px;
+         }
+
+      }
+
+   }
+}

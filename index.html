@@ -21,7 +21,7 @@
    <!------------------ main_area start ------------------>
    <section class="main_area">
       <!------------------ header_area start ------------------>
-      <section class="header_area  " id="home">
+      <section class="header_area" id="home">
          <div class="header_top primary">
             <div class="container ">
                <div class="row justify-content-between align-items-center ">
@@ -49,22 +49,22 @@
          </div>
          <div class="header_bottom  py-4">
             <div class="container">
-               <div class="row justify-content-between  align-items-center">
-                  <div class="col-md-3  d-flex justify-content-start">
+               <div class="row justify-content-between  flex-md-column flex-lg-row align-items-center">
+                  <div class="col-md-12 col-lg-3 d-flex justify-content-center justify-content-lg-start">
                      <div class="img">
                         <a href=""> <img src="assets/images/logo/homeLogo.png" alt=""></a>
                      </div>
                   </div>
-                  <div class="col-md-9 p-0 d-flex justify-content-end   ">
-                     <div class="menu">
-                        <nav class="navbar w-100 navbar-expand-lg p-0">
-                           <div class="container-fluid p-0">
+                  <div class="col-md-12 col-lg-9 p-0 d-flex justify-content-end">
+                     <div class="menu ">
+                        <nav class="navbar  w-100 navbar-expand-lg p-0">
+                           <div class="container-fluid d-md-flex justify-content-end  p-0">
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                                  aria-expanded="false" aria-label="Toggle navigation">
                                  <span class="navbar-toggler-icon"></span>
                               </button>
-                              <div class="collapse justify-content-start navbar-collapse" id="navbarNavDropdown">
+                              <div class="collapse justify-content-start  navbar-collapse" id="navbarNavDropdown">
                                  <ul
                                     class="navbar-nav justify-content-between align-items-center w-100 text-capitalize">
                                     <li class="nav-item">
@@ -75,7 +75,6 @@
                                     </li>
                                     <li class="nav-item">
                                        <a class="nav-link" href="#">project</a>
-
                                     </li>
                                     <li class="nav-item">
                                        <a class="nav-link" href="#">blog</a>
@@ -83,9 +82,11 @@
                                     <li class="nav-item">
                                        <a class="nav-link" href="#">contact</a>
                                     </li>
+
                                     <li>
                                        <i class="fas fa-search"></i>
                                     </li>
+
                                  </ul>
                               </div>
                            </div>
@@ -96,12 +97,96 @@
             </div>
          </div>
       </section>
-
       <!------------------ header_area end ------------------>
+
+
+      <!------------------ banner_area start ------------------>
+      <section class="banner_area ">
+         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="row  flex-md-column justify-content-center align-items-center ">
+                        <div class="col-md-7 ">
+                           <div
+                              class="banner_left text-center text-white d-flex flex-column align-items-center justify-content-center">
+                              <h1>Grow Your
+                                 Business With Us</h1>
+                              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                 occaecati
+                                 cupiditate non provident</p>
+                              <div class="buttons d-flex align-items-center justify-content-between">
+                                 <a href=""
+                                    class="d-flex align-items-center justify-content-center btn btn-primary secondary">Learn
+                                    More</a>
+                                 <a href=""
+                                    class="d-flex align-items-center justify-content-center btn btn-outline-primary light">Contact
+                                    Us</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-5 h-100 position-relative d-sm-none d-lg-block">
+                           <div class="banner_right  h-100">
+                              <div class="img position-relative">
+                                 <img src="assets/images/bannerImg.png" class="position-absolute" alt="">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item ">
+                  <div class="container">
+                     <div class="row  justify-content-center align-items-center ">
+                        <div class="col-md-12">
+                           <div
+                              class="banner_left text-white text-center d-flex flex-column align-items-center justify-content-center">
+                              <h1 class="" style="width: 640px;">Perfect Theme
+                                 <span class="d-sm-block">
+                                    For Your Business
+                                 </span>
+                              </h1>
+
+                              <p style="width: 80%;">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                 blanditiis praesentium
+                                 voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                 occaecati cupiditate non provident</p>
+                              <div class="buttons d-flex align-items-center justify-content-between">
+                                 <a href=""
+                                    class="d-flex align-items-center justify-content-center btn btn-primary secondary">Learn
+                                    More</a>
+                                 <a href=""
+                                    class="d-flex align-items-center justify-content-center btn btn-outline-primary light">Contact
+                                    Us</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!------------------ banner_area end ------------------>
+
+
+
+
 
    </section>
    <!------------------ main_area end ------------------>
- 
+
 
 
 
@@ -111,8 +196,6 @@
    <script src="assets/js/fontawesome.min.js"></script>
    <!----------------------- bootstrap js  ------------------------>
    <script src="assets/js/bootstrap.min.js"></script>
-   <!----------------------- bundle js  ------------------------>
-   <script src="assets/js/bootstrap.bundle.min.js"></script>
    <!----------------------- main js  ------------------------>
    <script src="assets/js/main.js"></script>
 

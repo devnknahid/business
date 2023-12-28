@@ -43,7 +43,103 @@
 }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+   .main_area {
+      .history_area {
+         .container {
+            .history_top {
+               h1 {
+                  width: 450px;
+
+                  &::after {
+                     position: absolute;
+                     content: "";
+                     width: 3px;
+                     height: 100px;
+                     top: 0;
+                     background-color: var(--primary);
+                     right: 0;
+                  }
+
+               }
+
+               p {
+                  width: 670px;
+               }
+            }
+         }
+      }
+   }
+
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+   .main_area {
+      .header_area {
+         .header_top {
+            .row {
+               .header_contact {
+                  width: 80%;
+               }
+            }
+         }
+
+         .header_bottom {
+            .menu {
+               width: 50%;
+            }
+         }
+
+      }
+
+      .banner_area {
+         .banner_left {
+            h1 {
+               font-size: 72px;
+            }
+
+            p {
+               font-size: 16px;
+            }
+         }
+      }
+
+      .history_area {
+         .container {
+            height: 625px;
+            padding: 0;
+
+            .history_bottom {
+               grid-template-columns: repeat(3, 1fr);
+               gap: 90px;
+            }
+         }
+      }
+
+      .feature_area {
+         .container {
+            height: 875px !important;
+         }
+
+         .img {
+            position: relative;
+            width: 850px;
+            height: 430px;
+
+            img {
+               left: -115px;
+               top: 0;
+               width: 100%;
+               position: absolute;
+               height: -webkit-fill-available;
+            }
+
+         }
+
+         .feture_content {
+            width: 650px;
+         }
+      }
+   }
+}

@@ -65,6 +65,11 @@
          .menu {
             width: 100%;
 
+            .nav-link {
+               color: var(--text) !important;
+               font-size: 13px;
+               font-weight: bolder;
+            }
 
          }
       }

@@ -1,0 +1,29 @@
+.main_area {
+   .feature_area {
+      height: 870px;
+      background-color: #f8fafc;
+
+      .img {
+         width: 775px;
+         height: 490px;
+
+         img {
+            width: 100%;
+         }
+      }
+
+      .feture_content {
+         width: 570px;
+      }
+
+      .count_contents {
+         grid-template-columns: repeat(4, 1fr);
+
+         .single_count {
+            span {
+               font-size: 48px;
+            }
+         }
+      }
+   }
+}

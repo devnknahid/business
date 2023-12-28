@@ -20,7 +20,7 @@
          z-index: 999;
          background: var(--light);
          padding: 2px;
-
+         transition: 0.3s
       }
 
       .fixedTogger,
@@ -36,6 +36,7 @@
          @include fixd;
          width: 100%;
          top: 0;
+         border-bottom: 1px solid var(--primary);
       }
 
       .header_bottom {

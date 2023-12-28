@@ -1,0 +1,57 @@
+.main_area {
+   .history_area {
+      .container {
+         height: 645px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         .history_top {
+            h1 {
+               font-size: 36px;
+               position: relative;
+               width: 450px;
+
+               &::after {
+                  position: absolute;
+                  content: "";
+                  width: 3px;
+                  height: 110px;
+                  top: 0;
+                  background-color: var(--primary);
+                  right: 0;
+               }
+            }
+
+            p {
+               font-size: 14px;
+               width: 675px;
+            }
+         }
+
+         .history_bottom {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 90px;
+
+            .single_history {
+               height: 200px;
+
+               img {
+                  width: 60px;
+                  height: 60px;
+               }
+
+               h4 {
+                  font-size: 21px;
+               }
+
+               p {
+                  font-size: 14px;
+               }
+            }
+
+         }
+      }
+   }
+}

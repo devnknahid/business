@@ -45,6 +45,12 @@
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
    .main_area {
+      .banner_area {
+         .row {
+            height: 840px;
+         }
+      }
+
       .history_area {
          .container {
             .history_top {

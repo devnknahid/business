@@ -4,16 +4,31 @@
       background-color: #f8fafc;
 
       .img {
-         width: 775px;
+         width: 580px;
          height: 490px;
+         display: block;
 
          img {
-            width: 100%;
+            width: 775px;
+            height: -webkit-fill-available;
+            top: -85px;
+            left: -262px;
          }
       }
 
       .feture_content {
          width: 570px;
+
+         h4 {
+            width: 400px;
+            font-size: 36px;
+         }
+
+         a {
+            background-color: #e6e6e6;
+            color: var(--primary);
+            width: 150px;
+         }
       }
 
       .count_contents {

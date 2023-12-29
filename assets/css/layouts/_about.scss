@@ -1,0 +1,46 @@
+.main_area {
+   .about_area {
+      .container {
+         height: 620px;
+
+         h1 {
+            font-size: 36px;
+         }
+
+         .about_left {
+            width: 100%;
+
+            .about_info {
+               h4 {
+                  font-size: 36px;
+
+                  span {
+                     font-size: 14px;
+                  }
+               }
+            }
+
+            .img {
+               overflow: hidden;
+               width: 80px;
+               height: 80px;
+               border-radius: 50%;
+               border: 1px solid var(--primary);
+
+               img {
+                  object-fit: cover;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+         }
+
+         .about_right {
+            width: 100%;
+
+         }
+
+
+      }
+   }
+}

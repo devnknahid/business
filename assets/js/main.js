@@ -46,5 +46,5 @@ window.addEventListener('scroll', () => {
    topBtn.classList.add("hidden");
    scrollTimeout = setTimeout(function () {
       topBtn.classList.remove("hidden");
-   }, 300);
+   }, 500);
 })

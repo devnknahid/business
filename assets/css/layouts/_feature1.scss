@@ -1,7 +1,6 @@
 .main_area {
    .feature_area {
       height: auto;
-      padding: 50px 0;
       background-color: #f8fafc;
 
       .img {
@@ -11,11 +10,14 @@
          }
       }
 
+      p {
+         padding: 10px 0;
+      }
+
+
       .feture_content {
 
-         h4 {
-            font-size: 36px;
-         }
+         h4 {}
 
          a {
             background-color: #e6e6e6;
@@ -26,10 +28,12 @@
 
       .count_contents {
          grid-template-columns: repeat(1, 1fr);
+         height: 270px;
 
          .single_count {
             span {
-               font-size: 48px;
+               font-weight: 500;
+               font-size: 22px;
             }
          }
       }

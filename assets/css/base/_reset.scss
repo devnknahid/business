@@ -1,32 +1,36 @@
-html {
-   scroll-behavior: smooth;
+.bg {
+   position: relative;
+
+   &::after {
+      position: absolute;
+      content: '';
+      background-color: var(--primary);
+      width: 100%;
+      height: 100%;
+      opacity: 90%;
+      top: 0;
+
+   }
 }
 
-:root {
-   --light: #ffffff;
-   --text: #012c44;
-   --dark: #323232;
-   --primary: #095dc7;
-   --secondary: #85af4b;
-   --secondary2: #001b3d;
-   --secondary3: #02295a;
+.bgb {
+   position: relative;
+
+   &::after {
+      position: absolute;
+      content: '';
+      background-color: var(--dark);
+      width: 100%;
+      height: 100%;
+      opacity: 90%;
+      top: 0;
+
+   }
 }
 
-body {
-   font-size: 13px;
-   font-family: 'poppins', sans-serif;
-}
-
-img {
-   width: 50%;
-}
 
 .primary {
    background-color: var(--primary) !important;
-}
-
-.secondary {
-   background-color: var(--secondary) !important;
 }
 
 .light {
@@ -38,13 +42,7 @@ img {
 }
 
 .nav-link {
-   color: var(--text) !important;
-}
-
-.container {
-   width: 100%;
-   max-width: 1170px;
-   padding: 0 !important;
+   color: var(--dark) !important;
 }
 
 .top {
@@ -73,7 +71,7 @@ img {
 }
 
 .hidden {
-   right: -50px !important;
+   right: -100px !important;
 }
 
 .navbar-toggler:focus {

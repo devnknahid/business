@@ -1,0 +1,48 @@
+.main_area {
+   .testimonial_area {
+      height: 700px;
+
+      #testimonialExampleAutoplaying {
+         width: 100%;
+
+         .carousel-control-next,
+         .carousel-control-prev {
+            top: inherit;
+            bottom: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: var(--primary);
+         }
+
+         .buttons {
+            height: 20px;
+
+            .start-50 {
+               left: 52% ;
+            }
+
+            .start-45 {
+               left: 40%;
+            }
+
+
+         }
+      }
+
+      .single_slide {
+         height: 230px;
+
+         .img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            img {
+               width: 100%;
+            }
+         }
+      }
+   }
+}

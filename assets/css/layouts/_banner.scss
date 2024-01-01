@@ -6,14 +6,25 @@
          height: 500px;
       }
 
-      .banner_left {
-         h1 {
-            font-size: 35px;
-         }
+      button {
+         height: 40px;
+         top: 40% !important;
+      }
 
-         p {
-            font-size: 12px;
-         }
+      .col-md-5 {
+         width: 600px !important;
+      }
+
+      .col-md-7 {
+         width: 760px !important;
+      }
+
+      .banner_left,
+      .banner_right {
+         height: 315px;
+      }
+
+      .banner_left {
 
          .buttons {
             width: 335px;
@@ -32,18 +43,25 @@
             a {
                width: 155px;
                border-radius: 25px;
-               height: 50px;
+               height: 40px;
             }
          }
       }
 
       .banner_right {
+         height: 100%;
+
          .img {
+            right: 0;
+            bottom: 0px;
+            width: 100%;
+            height: 760px;
+
             img {
-               width: 760px;
-               height: 765px;
-               top: 80px;
-               right: -245px;
+               width: 100%;
+               height: 100%;
+               -o-object-fit: inherit;
+               object-fit: inherit;
             }
          }
       }

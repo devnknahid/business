@@ -38,14 +38,22 @@
          width: 100%;
          top: 0;
          border-bottom: 1px solid var(--primary);
+
       }
 
       .header_bottom {
          .img {
             img {
                width: 50px;
-               height: 35px;
             }
+         }
+
+         .bottom_left {
+            width: 30%;
+         }
+
+         .bottom_right {
+            width: 65%;
          }
 
          .fixed {
@@ -66,9 +74,12 @@
             width: 100%;
 
             .nav-link {
-               color: var(--text) !important;
                font-size: 13px;
                font-weight: bolder;
+
+               &:hover {
+                  color: var(--primary) !important;
+               }
             }
 
          }

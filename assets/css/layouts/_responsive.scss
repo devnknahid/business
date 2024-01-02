@@ -81,8 +81,22 @@
       .footer_area {
          .footer_top {
             .footer_top_contents {
-               grid-template-columns: repeat(2, 1fr);
+               .contact_us {
+                  flex: 30% 0 0;
+               }
 
+               .links {
+                  flex: 20% 0 0;
+
+               }
+
+               .newslatters {
+                  flex: 44% 0 0;
+               }
+
+               .subscribe {
+                  flex: 45% 0 0;
+               }
             }
 
          }
@@ -177,12 +191,8 @@
       }
 
       .testimonial_area {
-         .start-50 {
-            left: 52% !important;
-         }
-
-         .start-45 {
-            left: 45% !important;
+         .w-70 {
+            width: 545px !important;
          }
 
       }
@@ -190,6 +200,28 @@
       .footer_area {
          height: 480px !important;
 
+         .footer_top {
+            .footer_top_contents {
+               .contact_us {
+                  flex: 26% 0 0;
+               }
+
+               .links {
+                  flex: 15% 0 0;
+
+               }
+
+               .newslatters {
+                  flex: 38% 0 0;
+               }
+
+               .subscribe {
+                  flex: 30% 0 0;
+               }
+            }
+
+
+         }
 
          .footer_bottom {
             height: 80px !important;
@@ -362,7 +394,26 @@
             height: 400px !important;
 
             .footer_top_contents {
-               grid-template-columns: repeat(4, 1fr);
+               .contact_us {
+                  flex: 20% 0 0;
+
+               }
+
+               .links {
+                  flex: 12% 0 0;
+
+               }
+
+               .newslatters {
+                  flex: 28% 0 0;
+
+
+               }
+
+               .subscribe {
+                  flex: 26% 0 0;
+               }
+
                height: 220px;
             }
          }

@@ -117,6 +117,21 @@ ul {
    text-decoration: none;
 }
 
+.carousel-indicators {
+   bottom: -15%;
+}
+
+.carousel-indicators li {
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   opacity: 1;
+   background-color: var(--light);
+}
+
+.carousel-indicators .active {
+   background-color: var(--primary);
+}
 
 h1,
 h2,

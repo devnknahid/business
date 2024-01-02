@@ -4,11 +4,13 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Business</title>
+   <title>about</title>
 
 
    <!----------------------- fontawesome css  ------------------------>
    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+   <!----------------------- carousel css ------------------------>
+   <link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css">
    <!----------------------- bootstrap css ------------------------>
    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
    <!----------------------- typography css  ------------------------>
@@ -78,7 +80,7 @@
                                     <li class="nav-item">
                                        <a class="nav-link" href="project.html">project</a>
                                     </li>
-                                    <li class="nav-item">   
+                                    <li class="nav-item">
                                        <a class="nav-link" href="blog.html">blog</a>
                                     </li>
                                     <li class="nav-item">
@@ -117,7 +119,7 @@
       <!------------------ banner_area end ------------------>
 
       <!------------------ abour_area start ------------------>
-      <section class="about_area about pt-4" id="about">
+      <section class="about_area about pt-4">
          <div class="container h-100">
             <div class="row h-100 d-flex flex-lg-row align-items-center justify-content-center text-center">
                <div
@@ -185,9 +187,14 @@
          style="background-image: url(assets/images/testimonial.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;">
          <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
-               <div class="col-md-12 z-1 d-flex flex-column align-items-center justify-content-center">
+               <div class="col-md-12 z-1 d-flex flex-column align-items-center justify-content-center w-70">
                   <h1 class="title light text-capitalize">testimonial</h1>
-                  <div id="testimonialExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators list-unstyled gap-3">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                     </ol>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
                            <div
@@ -200,7 +207,7 @@
                               <div class="img d-flex align-items-center justify-content-center rounded-5">
                                  <img src="assets/images/james.jpg" alt="">
                               </div>
-                              <h5>Svetlin Denkov</h5>
+                              <h5> Denkov</h5>
                            </div>
                         </div>
                         <div class="carousel-item ">
@@ -214,7 +221,7 @@
                               <div class="img d-flex align-items-center justify-content-center rounded-5">
                                  <img src="assets/images/james.jpg" alt="">
                               </div>
-                              <h5>Svetlin Denkov</h5>
+                              <h5>Svetlin</h5>
                            </div>
                         </div>
                         <div class="carousel-item ">
@@ -232,12 +239,6 @@
                            </div>
                         </div>
                      </div>
-                     <ul class="buttons p-0 d-flex align-items-center justify-content-center w-100 position-absolute">
-                        <li class="carousel-control-prev start-50" type="button"
-                           data-bs-target="#testimonialExampleAutoplaying" data-bs-slide="prev"><span></span></li>
-                        <li class="carousel-control-next  start-45" type="button"
-                           data-bs-target="#testimonialExampleAutoplaying" data-bs-slide="next"><span></span></li>
-                     </ul>
                   </div>
                </div>
             </div>
@@ -353,11 +354,12 @@
       <!------------------ partner_area end ------------------>
 
       <!------------------ footer_area start ------------------>
-      <section class="footer_area h-auto" id="contact">
+      <section class="footer_area h-auto">
          <div class="footer_top h-auto py-2">
             <div class="container h-100 ">
                <div class="row h-100 justify-content-center align-items-center">
-                  <div class="col-md-12 footer_top_contents  d-grid light">
+                  <div
+                     class="col-md-12 footer_top_contents  d-flex flex-column flex-md-row flex-md-wrap flex-xl-nowrap justify-content-between light">
                      <div
                         class="contact_us h-auto h200 d-flex flex-column  align-items-start justify-contentstjustify-content-start  gap-3">
                         <div class="contact_top">
@@ -456,7 +458,6 @@
       <!------------------ footer_area end ------------------>
 
 
-
       <div class="container position-fixed">
          <div class="top position-fixed d-none align-content-center justify-content-center" id="top">
             <a href="#home" class="light d-flex align-items-center justify-content-center"><i
@@ -477,7 +478,9 @@
    <!----------------------- fontawesome js  ------------------------>
    <script src="assets/js/fontawesome.min.js"></script>
    <!----------------------- bootstrap js  ------------------------>
-   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/bootstrap.js"></script>
+   <!----------------------- bootstrap bundle js  ------------------------>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
    <!----------------------- main js  ------------------------>
    <script src="assets/js/main.js"></script>
 

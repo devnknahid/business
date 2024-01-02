@@ -28,63 +28,73 @@
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 20px;
 
+            .contact_us {
+               flex: 22% 0 0;
 
-            .contact_bottom {
-               .social_icons {
-                  a {
-                     width: 40px;
-                     height: 40px;
-                     border-radius: 50%;
+               .contact_bottom {
+                  .social_icons {
+                     a {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
 
-                     &:nth-child(1) {
-                        background-color: transparent;
-                        border: 1px solid var(--fb);
+                        &:nth-child(1) {
+                           background-color: transparent;
+                           border: 1px solid var(--fb);
 
-                        &:hover {
+                           &:hover {
 
-                           background-color: var(--fb);
+                              background-color: var(--fb);
+                           }
+
                         }
 
-                     }
+                        &:nth-child(2) {
+                           background-color: transparent;
+                           border: 1px solid var(--twitter);
 
-                     &:nth-child(2) {
-                        background-color: transparent;
-                        border: 1px solid var(--twitter);
+                           &:hover {
 
-                        &:hover {
+                              background-color: var(--twitter);
+                           }
 
-                           background-color: var(--twitter);
                         }
 
-                     }
+                        &:nth-child(3) {
+                           background-color: transparent;
+                           border: 1px solid var(--google);
 
-                     &:nth-child(3) {
-                        background-color: transparent;
-                        border: 1px solid var(--google);
+                           &:hover {
 
-                        &:hover {
+                              background-color: var(--google);
+                           }
 
-                           background-color: var(--google);
                         }
 
-                     }
+                        &:nth-child(4) {
+                           background-color: transparent;
+                           border: 1px solid var(--pints);
 
-                     &:nth-child(4) {
-                        background-color: transparent;
-                        border: 1px solid var(--pints);
+                           &:hover {
 
-                        &:hover {
+                              background-color: var(--pints);
+                           }
 
-                           background-color: var(--pints);
                         }
-
                      }
+
                   }
-
                }
             }
 
+            .links {
+               flex: 16% 0 0;
+
+            }
+
             .newslatters {
+               flex: 32% 0 0;
+
                .newsletter_bottom {
                   .img {
                      img {
@@ -92,19 +102,23 @@
                         height: 70px;
                      }
                   }
+
                }
             }
 
-            .buttons {
-               button {
-                  width: 270px;
-                  height: 50px;
+            .subscribe {
+               .buttons {
+                  button {
+                     width: 270px;
+                     height: 50px;
 
-                  &:hover {
-                     border-radius: 0 !important;
+                     &:hover {
+                        border-radius: 0 !important;
 
+                     }
                   }
                }
+
             }
 
 
